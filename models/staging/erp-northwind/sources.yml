@@ -1,0 +1,15 @@
+version: 2
+
+sources:
+  - name: erp 
+    database: northwind-projeto-dw-391611
+    schema: erp_northwind
+    description: Fonte de dados de vendas do SAP northwind  
+    tables:
+      - name: employees
+        columns:
+          - name: employee_id
+            tests:
+              - unique
+              - not_null
+            
