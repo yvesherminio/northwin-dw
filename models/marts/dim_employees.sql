@@ -15,7 +15,7 @@ with
             , erp_employees.sobrenome
             , erp_employees.nome
             , erp_employees.nome_completo
-            , erp_managers.nome_completo as gerete_nome_completo
+            , erp_managers.nome_completo as gerente_nome_completo
             , erp_employees.nascimento
             , erp_employees.data_contratacao
             , erp_employees.endereco
